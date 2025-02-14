@@ -39,7 +39,7 @@ sequenceDiagram
     server-->>browser: JSON file containing the list of notes
     deactivate server
 
-    Note right of browser: Browser executes the JavaScript code to render the notes on the page
+    Note right of browser: Browser executes the event handler that renders notes to display
 
 ```
 
