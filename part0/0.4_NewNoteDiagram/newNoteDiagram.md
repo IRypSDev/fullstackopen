@@ -15,7 +15,7 @@ sequenceDiagram
     server-->>browser: HTTP 302 (Header response) location: /exampleapp/notes
     deactivate server
 
-    Note right of browser: The browser makes a new request to the location provided
+    Note right of browser: Browser makes a new request to the location provided
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
