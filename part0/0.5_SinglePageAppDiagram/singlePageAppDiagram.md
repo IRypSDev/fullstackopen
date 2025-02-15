@@ -1,4 +1,4 @@
-# 0.4: Single page app diagram
+# 0.5: Single page app diagram
 
 
 
@@ -32,7 +32,7 @@ sequenceDiagram
     server-->>browser: JSON file containing the list of notes
     deactivate server
 
-    Note right of browser: Browser executes the event handler that renders notes to display
+    Note right of browser: Browser executes the event handler that adds notes to an array and renders them for display
 
 ```
 
